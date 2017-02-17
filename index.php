@@ -19,7 +19,7 @@ $_SESSION['dox'] = htmlspecialchars($_GET["q"]);
     <link rel="icon" href="res/icon.jpg">
 
     <!-- Title -->
-    <title>Simple WHOIS Lookup</title>
+    <title>Simple Doxer</title>
 
     <!-- Bootstrap CSS + Font-Awesome Icon Lib + Tether.io -->
     <link href="res/bootstrap.min.css" rel="stylesheet">
