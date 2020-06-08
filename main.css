@@ -1,80 +1,82 @@
 a {
-    text-decoration: none !important;
-    color: blue;
+	text-decoration: none !important;
+	color: blue;
 }
 
 body {
-    background-color: #eee;
+	background-color: #eee;
 }
 
 button {
-    height: 36px;
-    margin: auto;
-    width: 50%;
-    text-align: center;
-    border-radius: 2px;
-    border: none;
-    color: #fff;
-    font-size: 22px;
-    background: #fa5759;
+	height: 36px;
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	border-radius: 2px;
+	border: none;
+	color: #fff;
+	font-size: 22px;
+	background: #fa5759;
 }
 
 footer {
-    font-family: 'Roboto', sans-serif;
-    color: #222;
-    position: fixed;
-    margin-bottom: 2vh;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
+	font-family: 'SF Pro Text', 'Roboto', sans-serif;
+	color: #222;
+	position: fixed;
+	margin-bottom: 2vh;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	font-weight: 300;
 }
 
 input {
-    height: 36px;
-    border-radius: 2px;
-    border: none;
+	height: 36px;
+	border-radius: 2px;
+	border: none;
 }
 
 h1 {
-    text-align: center;
-    font-size: 47px;
-    font-weight: 100;
-    letter-spacing: 0.349em;
-    line-height: 0.6;
-    font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: 57px;
+	font-weight: 100;
+	letter-spacing: 0.122em;
+	font-family: 'SF Pro Display', 'Roboto', sans-serif;
 }
 
 .center {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
 
 .form-group {
-    margin: 1vh auto;
-}
-
-@media screen and (max-width: 577px) {
-    h1 {
-        letter-spacing: 0.1rem;
-        font-size: 33px;
-        line-height: 1;
-    }
-}
-
-@media screen and (max-width: 769px) {
-    h1 {
-        line-height: 1;
-        font-size: 48px;
-        letter-spacing: 0.141rem;
-    }
+	margin: 1vh auto;
 }
 
 @media screen and (max-width: 993px) {
-    h1 {
-        letter-spacing: 0.5rem;
-    }
+	h1 {
+		font-size: 42px;
+		letter-spacing: 0.122rem;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	body, footer {
+		background: #222;
+		color: #fff;
+	}
+
+	input {
+		background: #333;
+		color: #fff;
+	}
+
+	a {
+		color: #fff;
+		font-weight: 400;
+	}
 }
